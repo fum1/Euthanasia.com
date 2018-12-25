@@ -820,6 +820,21 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                 ]
             };
 
+            // ========================================================================= //
+            //  Typed Js
+            // ========================================================================= //
+
+            var typed = $(".typed");
+
+            $(function() {
+                typed.typed({
+                    strings: ["安らぎを", "休息を　", "解放を　", "幸福を　", "楽しみを　"],
+                    typeSpeed: 100,
+                    loop: true,
+                });
+            });
+
+
             // Get the HTML DOM element that will contain your map
             // We are using a div with id="map" seen below in the <body>
             var mapElement = document.getElementById('map');
