@@ -300,6 +300,7 @@ a,
   top: 0;
 }
 
+
 .bg-light {
   background: #f6f6f6;
 }
@@ -1115,6 +1116,10 @@ Hero Slider
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+}
+
+.text-slider-items {
+  display: none;
 }
 
 /*

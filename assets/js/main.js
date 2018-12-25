@@ -333,6 +333,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
         });
 
 
+
         /* ---------------------------------------------- /*
          * Funfact Count-up
          /* ---------------------------------------------- */
@@ -438,6 +439,35 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             }, 1000);
             e.preventDefault();
         });
+
+
+        /*--/ Star Scrolling nav /--*/
+        $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: (target.offset().top - navHeight + 5)
+                    }, 1000, "easeInOutExpo");
+                    return false;
+                }
+            }
+        });
+
+        // Closes responsive menu when a scroll trigger link is clicked
+        $('.js-scroll').on("click", function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+
+        // Activate scrollspy to add active class to navbar items on scroll
+        $('body').scrollspy({
+            target: '#mainNav',
+            offset: navHeight
+        });
+        /*--/ End Scrolling nav /--*/
+
+
 
         /*===============================================================
          Working Contact Form
@@ -595,6 +625,21 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             });
 
         });
+
+
+        //もじを消したりするやつ
+        if ($('.text-slider').length == 1) {
+            var typed_strings = $('.text-slider-items').text();
+            var typed = new Typed('.text-slider', {
+                strings: typed_strings.split(','),
+                typeSpeed: 80,
+                loop: true,
+                backDelay: 3100,
+                backSpeed: 30
+            });
+        }
+
+
 
 
         /* ---------------------------------------------- /*
@@ -819,6 +864,9 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                     }
                 ]
             };
+
+
+
 
             // ========================================================================= //
             //  Typed Js
