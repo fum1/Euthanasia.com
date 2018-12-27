@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9de7b3f-7c32-4d80-801a-c51e17e9c939" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/lib/typed/typed.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/lib/typed/typed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,11 +17,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="15" />
+            <state relative-caret-position="596">
+              <caret line="105" column="140" selection-start-line="105" selection-start-column="140" selection-end-line="105" selection-end-column="140" />
+              <folding>
+                <element signature="e#5958#5964#1" expanded="true" />
+                <element signature="e#6016#6022#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" column="84" selection-start-line="43" selection-start-column="84" selection-end-line="43" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -37,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1017">
@@ -61,9 +72,9 @@
       <find>anim</find>
       <find>text-slider</find>
       <find>titan</find>
-      <find>section-sc</find>
       <find>main.js</find>
       <find>section</find>
+      <find>section-sc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -78,13 +89,13 @@
         <option value="$PROJECT_DIR$/.htaccess.txt" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/login/login.html" />
-        <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/header.html" />
         <option value="$PROJECT_DIR$/login_register.html" />
         <option value="$PROJECT_DIR$/assets/js/sub.js" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/footer.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -92,8 +103,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1937" />
+    <option name="x" value="1672" />
+    <option name="width" value="2177" />
     <option name="height" value="2168" />
   </component>
   <component name="ProjectView">
@@ -139,7 +150,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Folio" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Titan-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -174,17 +185,18 @@
       <workItem from="1545391702048" duration="2066000" />
       <workItem from="1545611594913" duration="3604000" />
       <workItem from="1545728619096" duration="650000" />
+      <workItem from="1545912215559" duration="3973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27063000" />
+    <option name="totallyTimeSpent" value="31362000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1549" height="1734" extended-state="0" />
+    <frame x="1338" y="0" width="1741" height="1734" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.3787777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.16061868" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.2167382" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -219,9 +231,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login/style.css" />
     <entry file="file://$PROJECT_DIR$/login/login_register.html" />
-    <entry file="file://$PROJECT_DIR$/footer.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/login/login.html" />
     <entry file="file://$USER_HOME$/Desktop/DevFolio/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -237,13 +246,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/sub.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1528">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/sub.js" />
     <entry file="file://$PROJECT_DIR$/assets/lib/typed/typed.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -277,13 +280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
@@ -295,6 +291,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1017">
           <caret line="464" column="30" selection-start-line="464" selection-start-column="20" selection-end-line="464" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="84" selection-start-line="43" selection-start-column="84" selection-end-line="43" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="105" column="140" selection-start-line="105" selection-start-column="140" selection-end-line="105" selection-end-column="140" />
+          <folding>
+            <element signature="e#5958#5964#1" expanded="true" />
+            <element signature="e#6016#6022#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
